@@ -80,7 +80,7 @@ function circleClicked(event){
   }
 
   if (tmpCircleArr.length!=0){
-    var tmpIndex = Math.floor(tmpCircleArr.length*Math.random(1));
+    var tmpIndex = parseInt(tmpCircleArr.length*Math.random());
     var tmpCircle = tmpCircleArr[tmpIndex];
     tmpCircle.setCircleType(3);
     currentCat.setCircleType(1);
