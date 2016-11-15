@@ -46,7 +46,7 @@ function addRects(){
       }
     }
   }
-  //根绝难度等级返回 the only color
+  //根据难度等级返回 the only color
   function getOnlyColor(n,color){
    var onlyColorNo;
     switch (n){
